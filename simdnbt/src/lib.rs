@@ -4,9 +4,6 @@
 #![allow(internal_features)]
 #![feature(core_intrinsics)]
 
-#[cfg(not(target_pointer_width = "64"))]
-compile_error!("simdnbt only supports 64-bit platforms");
-
 pub mod borrow;
 mod common;
 mod error;

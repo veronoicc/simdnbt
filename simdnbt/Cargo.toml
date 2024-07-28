@@ -26,8 +26,6 @@ azalea-nbt = { git = "https://github.com/azalea-rs/azalea", rev = "84e036ce3752e
 hematite-nbt = { version = "0.5.2", default-features = false }
 shen-nbt5 = "0.4.6"
 
-mimalloc = "0.1.43"
-
 [features]
 default = ["derive"]
 derive = ["dep:simdnbt-derive"]
